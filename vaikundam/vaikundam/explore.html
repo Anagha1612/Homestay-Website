@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Explore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=IM Fell French Canon' rel='stylesheet'>
+</head>
+<body>
+	<header>
+    	<div class="tab">
+    		<button><a style="color: #a41623" href="homepage.html">HOME</a></button>
+			<button><a style="color: #a41623" href="aboutus.html">ABOUT US</a></button>
+			<button><a style="color: #a41623" href="rooms.html">ROOMS AND DINING</a></button>
+            <button><a style="color: #a41623" href="facilities.html">FACILITIES</a></button>
+            <button><a style="color: #a41623" href="explore.html">EXPLORE</a></button>
+            <button><a style="color: #a41623" href="bookrooms.php">BOOK ROOMS</a></button>
+			<button><a style="color: #a41623" href="#contactus">CONTACT US</a></button>
+		</div>
+        <div class="main-text">
+            <b><font color="#a41623" size="7px" face="IM Fell French Canon">Vaikundam Legacy</font></b>
+        </div>
+    </header>
+	<div class="explore-image">
+	        <div class="explore-text">
+	            <b><font size="20" face="IM Fell French Canon" color="white">Explore</font></b>
+	        </div>
+	</div>
+	<table cellspacing="0">
+		<td width="60%" bgcolor="#ffd29d">
+			<p class="rooms-content">
+				<font size="4.5px"><br><br>Things to look forward to during the stay<br>       
+					<ul>
+						<li style="font-family: Open Sans;">As our guest, the focus is on you, your likes, and your preferences. Such would be the hospitality where ever you turn to there is only largesse and warmth. We in Vaikundam Legacy strive to maintain a fine balance between luxury and giving people a peep into the rubber culture as well as reconnect with nature. Those who hold nature close to their heart will find bliss here. Where offbeat is the buzz word and discovery the way to go, Vaikundam Legacy provides you the answer. Here, you can get out of your comfort zone while staying comfortable all the time. We aim to make your stay as alive as possible. You can also experience nothingness and go for a short walk with the rubber trees for the company. Or you can kick back, take up a book, enjoy music, or simply sit back and enjoy nature in all its wilderness, away from the busy city life. Alternatively, if you are feeling adventurous, the rubber trees and the estate await you. Have a guided plantation tour and learn how the plants are nurtured and grown. Watch at close quarters how a rubber tree is tapped. A peep into a working rubber estate!</li>
+						<table>
+							<tr>
+								<td width="60%">
+									<li style="font-family: Open Sans;">Luxury in the lap of nature. </li>
+									<li style="font-family: Open Sans;">Trekking to NADUKANI topmost point in the estate.  </li>
+									As the name suggests, once you reach the top, you can see miles and miles of the countryside in all its beauty spread before you. Enjoy the mesmerizing sight of Chittar Lake! The scenic beauty that you are treated to is well worth the steep climb!
+									<li style="font-family: Open Sans;">Guided plantation tours, leisure walks amid nature.</li>
+									<li style="font-family: Open Sans;">A walk through the plantation is an enriching experience. You will come across small, natural waterfalls where you can picnic. </li>
+									<li style="font-family: Open Sans;">Aesthetically furnished rooms and glorious interiors.</li>
+									<li style="font-family: Open Sans;">Visits to Kanyakumari, Padmanabhapuram Palace can be arranged.</li>
+									<li style="font-family: Open Sans;">Visits to Trivandrum can also be arranged for sight seeing- Kovalam, Padmanabhaswamy temple, museum, zoo, Veli.</li>
+									<li style="font-family: Open Sans;"> Our other facilities would include a Conference Hall and a delightful choice of board games and books.</li>
+								</td>
+								<td bgcolor="#ffd29d">
+									<div class="slideshow-container">
+										<div class="mySlides fade">
+										  <div class="numbertext">1 / 3</div>
+										  <img src="img/explore/1.png" style="width:100%">
+										  <div class="text">Nadukani</div>
+										</div>
+										<div class="mySlides fade">
+										  <div class="numbertext">2 / 3</div>
+										  <img src="img/explore/2.png" height="330px" style="width:100%">
+										  <div class="text">Cycling</div>
+										</div>
+										<div class="mySlides fade">
+										  <div class="numbertext">3 / 3</div>
+										  <img src="img/explore/3.png" style="width:100%">
+										  <div class="text">Bonfire</div>
+										</div>
+										
+									</div>
+									<br>
+									<div style="text-align:center">
+									  <span class="dot"></span> 
+									  <span class="dot"></span> 
+									  <span class="dot"></span>
+									</div>
+									<script>
+										var slideIndex=0;
+										showSlides();
+										function showSlides() 
+										{
+										  var i;
+										  var slides=document.getElementsByClassName("mySlides");
+										  var dots=document.getElementsByClassName("dot");
+										  for(i=0;i<slides.length;i++) 
+										  {
+										    slides[i].style.display="none";  
+										  }
+										  slideIndex++;
+										  if(slideIndex>slides.length) 
+										  {
+										  	slideIndex=1
+										  }    
+										  for(i=0;i<dots.length;i++) 
+										  {
+										    dots[i].className=dots[i].className.replace(" active","");
+										  }
+										  slides[slideIndex-1].style.display="block";  
+										  dots[slideIndex-1].className+=" active";
+										  setTimeout(showSlides,3500);
+										}
+									</script>
+								</td>
+							</tr>
+						</table>
+					</ul>
+				</font>
+			</p>
+		</td>			
+	</table>
+	<hr>
+	<footer>
+        <font face="Open Sans">
+            <div align="center" id="contactus">
+                <b>CONTACT US</b><br>Vaikundam Legacy,<br>
+                Kaliyal, Alancholai P O<br>
+                Ph: +919344988288<br>
+                Email- vaikundamlegacy@gmail.com
+            </div>
+        </font>
+    </footer>
+</body>
+</html>
